@@ -1,0 +1,32 @@
+{
+  "name": "CLTools",
+  "version": "1.0.0",
+  "summary": "A short description of CLTools.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/REVER-KD/CLTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "REVER-KD": "417720336@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/REVER-KD/CLTools.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "CLTools/Classes/**/*",
+  "resource_bundles": {
+    "CLTools": [
+      "CLTools/Assets/**/*"
+    ]
+  },
+  "dependencies": {
+    "DZNEmptyDataSet": [
+
+    ]
+  }
+}

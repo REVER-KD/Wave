@@ -1,0 +1,23 @@
+PODS:
+  - CLTools (1.0.0):
+    - DZNEmptyDataSet
+  - DZNEmptyDataSet (1.8.1)
+
+DEPENDENCIES:
+  - CLTools (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - DZNEmptyDataSet
+
+EXTERNAL SOURCES:
+  CLTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CLTools: 44af59a0b412638ce95b9fab2fd6c2f4f5a26d3f
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+
+PODFILE CHECKSUM: 38bf096611f908046ddc0ed0a22e5b522810877c
+
+COCOAPODS: 1.9.3

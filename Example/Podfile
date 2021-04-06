@@ -1,0 +1,18 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/REVER-KD/SomaWave.git'
+
+
+
+
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'CLTools_Example' do
+  pod 'CLTools', :path => '../'
+  target 'CLTools_Tests' do
+    inherit! :search_paths
+
+#    pod 'FBSnapshotTestCase'
+  end
+end
